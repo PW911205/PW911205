@@ -1,0 +1,102 @@
+/* 整體頁面設定 */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #8cc5ff; /* 淡藍灰背景色 */
+    font-family: "Segoe UI", "微軟正黑體", sans-serif; /* 字體設定 */
+    font-size: 1.2em; /* 基準字體大小，增加整體字體大小 */
+}
+
+/* 頁首設定 */
+header {
+    background-color: #007bff; /* 藍色背景 */
+    color: white; /* 文字顏色 */
+    padding: 20px; /* 內距 */
+    text-align: center; /* 內容置中 */
+}
+
+/* 導覽列設定 */
+nav {
+    background-color: #0056b3; /* 深藍色背景 */
+    padding: 15px; /* 增加內距 */
+    text-align: center; /* 內容置中 */
+}
+
+/* 導覽列中超連結樣式 */
+nav a {
+    color: #ffffff; /* 連結文字顏色 */
+    text-decoration: none; /* 移除底線 */
+    margin: 0 20px; /* 左右間隔 */
+    font-weight: bold; /* 字體加粗 */
+    font-size: 1.2em; /* 增加字體大小 */
+    padding: 10px 20px; /* 增加內距，讓連結變寬 */
+    display: inline-block; /* 使連結成為區塊元素，便於設置寬度 */
+    transition: color 0.3s; /* 顏色過渡效果 */
+}
+
+/* 滑鼠懸停時的連結效果 */
+nav a:hover {
+    color: #ffd700; /* 滑鼠懸停變色 */
+}
+
+/* 主體區塊設定 */
+main {
+    max-width: 1200px; /* 最大寬度設定為 1200px */
+    margin: 0 auto; /* 置中對齊 */
+    padding: 40px; /* 內距 */
+    text-align: center; /* 內容置中 */
+}
+
+/* 表單樣式 */
+form {
+    display: flex;
+    flex-direction: column; /* 垂直排列 */
+    max-width: 700px; /* 增加最大寬度 */
+    margin: 0 auto; /* 置中對齊 */
+}
+
+/* 標籤文字樣式 */
+label {
+    margin-top: 15px; /* 每個欄位間距 */
+    font-weight: bold; /* 粗體字 */
+}
+
+/* 輸入框與文字區域的共同樣式 */
+input,
+textarea {
+    margin-top: 5px; /* 與標籤間距 */
+    padding: 12px; /* 增加內距 */
+    font-size: 1.2rem; /* 增加字體大小 */
+    border: 1px solid #ccc; /* 邊框 */
+    border-radius: 4px; /* 圓角邊框 */
+}
+
+/* 送出按鈕樣式 */
+button {
+    margin-top: 20px; /* 與上方欄位的間距 */
+    padding: 12px; /* 增加內距 */
+    background-color: #0056b3; /* 深藍色背景 */
+    color: white; /* 文字顏色 */
+    font-size: 1.2rem; /* 增加字型大小 */
+    border: none; /* 移除邊框 */
+    border-radius: 4px; /* 圓角邊框 */
+    cursor: pointer; /* 滑鼠指標 */
+    transition: background-color 0.3s ease; /* 背景顏色變化動畫 */
+}
+
+/* 滑鼠懸停在按鈕上時的樣式 */
+button:hover {
+    background-color: #003d80; /* 更深的藍色變色效果 */
+}
+
+/* 聯絡方式區塊 */
+#content {
+    text-align: center; /* 內容置中 */
+    margin-top: 40px; /* 上方間距 */
+}
+
+.social-icon {
+    width: 100px; /* 圖片寬度 */
+    height: 100px; /* 圖片高度 */
+    margin: 10px; /* 圖片間距 */
+}
